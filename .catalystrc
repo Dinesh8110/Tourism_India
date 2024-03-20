@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "5836000000005071",
+      "name": "Tourism",
+      "domain": {
+        "id": "50018450370",
+        "name": "tourism-60028066280.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60028066280",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

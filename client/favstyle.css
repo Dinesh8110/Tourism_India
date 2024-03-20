@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-image: url(https://cdn.wallpapersafari.com/98/20/zWxFaN.jpg);
+    background-position: center;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99;
+}
+
+.navigation a {
+    position:relative;
+    color:white;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight:500;
+    margin-left:40px;
+} 
+
+.navigation a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom: -6px;
+    height:2px;
+    width:100%;
+    background-color: #fff;
+    border-radius: 5px;
+    transform:scaleX(0);
+    transition:transform .5s;
+}
+
+.navigation a:hover:after{
+  transform: scaleX(1);
+  transform-origin:left;
+    
+}
+
+img{
+  height:50px;
+  width:100px;
+}
+
+.navigation .btnlogin-popup{
+  width:120px;
+  height:40px;
+  background: transparent;
+  color:white;
+  border:2px solid #fff;
+  border-radius:6px;
+  margin-left:40px;
+  cursor: pointer;
+  font-weight:500;
+  font-size:1.1em;
+}
+
+.navigation .btnlogin-popup:hover{
+  background-color: #fff;
+  color:black;
+}
+
+.places{
+    position:fixed;
+    display:flex;
+    box-sizing:border-box;
+    width:100%;
+    height: 30px;
+    padding:40px 200px;
+   padding-left:250px;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index:99;
+    margin-bottom: 415px;
+    float:right;
+    
+
+}
+
+.navigation1 a{
+    position:relative;
+    color:whitesmoke;
+    font-size:  1.5em;
+    text-decoration: none;
+    font-weight:500;
+    margin-left:25px;
+} 
+
+.navigation1 a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom: -6px;
+    height:2px;
+    width:100%;
+    background-color: #fff;
+    border-radius: 5px;
+    transform:scaleX(0);
+    transition:transform .5s;
+}
+.navigation1 a:hover:after{
+    transform: scaleX(1);
+    transform-origin:left;
+}
+
+.tajmahal img{
+    width:20em;
+    height:25em;
+    margin-right: 55em;
+    margin-top: 7em;
+    border-color: #fff;
+    border-radius: 15px;
+   
+}
+
+.text{
+    color:white;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    text-align:center ;
+
+}
+
+.intro{
+    font-weight: 500;
+    
+    color:white;
+    text-align: center;
+}
+.intro .center{
+    position:absolute;
+    font-size: 3.5em;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro .bottom{
+       position: absolute;
+       font-size: 12px;
+       left:35%;
+       bottom:0%;
+       text-align: start;
+
+}
+
+.tntemple img{
+  width:150px;
+  height:200px;
+  left:25%;
+  bottom:15%;
+  border-color: #fff;
+  border-radius: 15px;
+  transform: translate(-25%,100%);
+}
+
+
+
+
+body{
+    font-family: 'Roboto';
+    background: color #db1515;
+}
+
+nav{
+    margin-top:200px;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    list-style:none;
+
+}
+
+nav ul li{
+    background-color:royalblue;
+    float:left;
+    border-right: 1px solid;
+    box-shadow: 1.95px 1.95px 2.6px rgba(0,0,0,1);
+    text-transform: uppercase;
+    color:#db1515;
+    font-weight:400;
+    transition: all 0.2s linear;
+
+
+}
+
+nav ul li:hover{
+    background-color:white;
+    color:aliceblue;
+
+}
+a{
+    color:inhert;
+    display:block;
+    padding:10px 20px;
+    text-decoration: none;
+    transform: skew(-25deg);
+}
+
+nav ul li:first-child{
+    border-radius:0 7px 7px 0;
+
+}
+
+nav ul li:last-child{
+    border-radius:0 7px 7px 0;
+}
