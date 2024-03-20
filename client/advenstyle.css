@@ -1,0 +1,157 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 100px;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:99;
+}
+
+.header a{
+    position:relative;
+    color:white;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight:500;
+    margin-left:40px
+}
+.header a::after{
+    content:'';
+      position:absolute;
+      left:0;
+      bottom: -6px;
+      height:2px;
+      width:100%;
+      color:black;
+      background-color:black;
+      border-radius: 5px;
+      transform:scaleX(0);
+      transition:transform .5s;
+}
+.header a:hover:after{
+    transform: scaleX(1);
+    transform-origin:left;
+      
+}
+
+.header img{
+    height:50px;
+    width:100px;
+}
+.header .btnlogin-popup{
+    width:120px;
+    height:40px;
+    background: transparent;
+    color:white;
+    border:2px solid white;
+    border-radius:6px;
+    margin-left:40px;
+    cursor: pointer;
+    font-weight:500;
+    font-size:1.1em;
+}
+.header .btnlogin-popup:hover{
+    background-color:white;
+    color:black;
+}
+
+
+.container{
+    position:fixed;
+    display:flex;
+    flex-direction: row;
+    box-sizing:border-box;
+    width:100%;
+    top :0%;
+    height: 30px;
+    padding:150px 200px;
+   padding-left:250px;
+    justify-content: space-between;
+    align-items: flex-end;
+    float:right;
+    
+
+}
+
+.container a{
+    position:relative;
+    color:black;
+    font-size:  1.5em;
+    text-decoration: none;
+    font-weight:500;
+    margin-left:20px;
+} 
+
+.container a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom: -6px;
+    height:2px;
+    width:100%;
+    background-color:white;
+    border-radius: 5px;
+    transform:scaleX(0);
+    transition:transform .5s;
+}
+.container  a:hover:after{
+    transform: scaleX(1);
+    transform-origin:left;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+
+.container1 { 
+    padding:20px;
+    padding-top: 190px;
+
+}
+
+
+.image{
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    width:75%
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    background:rgb(104, 69, 69);
+    color:black;
+}
+.footer button {
+    padding: 0.25rem;
+    border-radius: 2rem;
+}
+.footer ul{
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.mediastyle img{
+    margin: 1rem;
+    width: 40px;
+    height: 40px;
+}
+
+
+
